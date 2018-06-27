@@ -23,6 +23,7 @@ h4 {
   margin: 20px 0 0 0;
 }
 
+
 img:hover {
   transition-duration: 1s;
   transform: scale(1.05);
@@ -38,6 +39,7 @@ img:hover {
   border: 1px solid #aaaa00;
   box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
+
 }
 
 .dubious {
@@ -48,4 +50,20 @@ img:hover {
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 
+.column{
+  display: inline-block;
+  width: 30%;
+}
+
 /* create your tile classes! we recommend .small .med .large */
+.small{
+  width: 100%;
+  display: block;
+}
+.med{
+  width: 200%;
+  display: block;
+}
+.large{
+  width: 303%;
+}
